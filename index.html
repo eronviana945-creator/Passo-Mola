@@ -1,1420 +1,2216 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Passo Mola | Fabricante de Molas Industriais Sob Medida</title>
+<title>Fabricante de Molas Industriais em São Paulo | Passo Mola</title>
 
-    <meta name="description"
-          content="Fabricante de molas industriais sob medida em São Paulo. Molas de compressão, tração, torção, molas prato e molas especiais conforme desenho, amostra ou especificação. Solicite sua cotação.">
+<meta name="description"
+content="Fabricante de molas industriais em São Paulo. Molas de compressão, tração, torção, prato e especiais. Fabricação conforme desenho, amostra ou especificação para empresas de todo o Brasil.">
 
-    <meta name="keywords"
-          content="molas industriais, fabricante de molas, molas sob medida, mola de compressão, mola de tração, mola de torção, mola prato, molas especiais">
+<meta name="robots" content="index, follow">
 
-    <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://passomola.com.br/">
 
-    <link rel="canonical" href="https://passomola.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:title"
+content="Fabricante de Molas Industriais em São Paulo | Passo Mola">
+<meta property="og:description"
+content="Fabricação de molas industriais sob medida conforme desenho, amostra, medidas ou especificação.">
+<meta property="og:url" content="https://passomola.com.br/">
+<meta property="og:site_name" content="Passo Mola">
+<meta property="og:locale" content="pt_BR">
 
-    <meta property="og:title"
-          content="Passo Mola | Fabricante de Molas Industriais">
+<!-- =========================
+     DADOS ESTRUTURADOS
+========================= -->
 
-    <meta property="og:description"
-          content="Fabricação de molas industriais sob medida conforme desenho, amostra ou especificação.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
 
-    <meta property="og:type" content="website">
-
-    <meta property="og:url"
-          content="https://passomola.com.br/">
-
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #0b1f33;
-            background: #ffffff;
-            line-height: 1.6;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        img {
-            max-width: 100%;
-            display: block;
-        }
-
-        .container {
-            width: min(1180px, 92%);
-            margin: auto;
-        }
-
-        /* =========================
-           HEADER
-        ========================== */
-
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 999;
-            background: #ffffff;
-            border-bottom: 1px solid #dce5ec;
-        }
-
-        .header-content {
-            min-height: 76px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 30px;
-        }
-
-        .logo {
-            font-size: 27px;
-            font-weight: 800;
-            color: #1769aa;
-            letter-spacing: -0.5px;
-        }
-
-        .logo span {
-            color: #0b1f33;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-        }
-
-        nav a {
-            font-size: 15px;
-            font-weight: 600;
-            color: #0b1f33;
-            transition: 0.2s;
-        }
-
-        nav a:hover {
-            color: #1769aa;
-        }
-
-        .nav-button {
-            background: #1769aa;
-            color: #ffffff !important;
-            padding: 11px 18px;
-            border-radius: 6px;
-        }
-
-        .nav-button:hover {
-            background: #0e558a;
-        }
-
-        .menu-button {
-            display: none;
-            border: 0;
-            background: none;
-            font-size: 28px;
-            cursor: pointer;
-        }
-
-        /* =========================
-           HERO
-        ========================== */
-
-        .hero {
-            background:
-                linear-gradient(
-                    135deg,
-                    #f4f7fa 0%,
-                    #ffffff 60%
-                );
-            padding: 90px 0 80px;
-        }
-
-        .hero-content {
-            max-width: 820px;
-        }
-
-        .hero-label {
-            display: inline-block;
-            color: #1769aa;
-            background: #eaf3fa;
-            border: 1px solid #d5e8f5;
-            padding: 7px 13px;
-            border-radius: 30px;
-            font-size: 13px;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: clamp(38px, 5vw, 62px);
-            line-height: 1.08;
-            letter-spacing: -1.5px;
-            margin-bottom: 22px;
-        }
-
-        .hero h1 span {
-            color: #1769aa;
-        }
-
-        .hero p {
-            max-width: 720px;
-            color: #627282;
-            font-size: 19px;
-            margin-bottom: 32px;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 14px;
-            flex-wrap: wrap;
-        }
-
-        .button {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            padding: 14px 23px;
-            border-radius: 6px;
-            font-weight: 700;
-            font-size: 15px;
-            transition: 0.2s;
-        }
-
-        .button-primary {
-            background: #1769aa;
-            color: #ffffff;
-        }
-
-        .button-primary:hover {
-            background: #0e558a;
-            transform: translateY(-1px);
-        }
-
-        .button-secondary {
-            border: 1px solid #cbd8e2;
-            color: #0b1f33;
-            background: #ffffff;
-        }
-
-        .button-secondary:hover {
-            border-color: #1769aa;
-            color: #1769aa;
-        }
-
-        /* =========================
-           SECTIONS
-        ========================== */
-
-        section {
-            padding: 80px 0;
-        }
-
-        .section-light {
-            background: #f4f7fa;
-        }
-
-        .section-title {
-            max-width: 760px;
-            margin-bottom: 45px;
-        }
-
-        .section-title small {
-            display: block;
-            color: #1769aa;
-            font-size: 13px;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 8px;
-        }
-
-        .section-title h2 {
-            font-size: clamp(29px, 4vw, 42px);
-            line-height: 1.15;
-            margin-bottom: 14px;
-        }
-
-        .section-title p {
-            color: #627282;
-            font-size: 17px;
-        }
-
-        /* =========================
-           SPRINGS
-        ========================== */
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .card {
-            background: #ffffff;
-            border: 1px solid #dce5ec;
-            border-radius: 9px;
-            padding: 28px;
-            transition: 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-3px);
-            border-color: #b9d2e4;
-            box-shadow: 0 8px 25px rgba(11, 31, 51, 0.07);
-        }
-
-        .card-number {
-            color: #1769aa;
-            font-size: 14px;
-            font-weight: 800;
-            margin-bottom: 15px;
-        }
-
-        .card h3 {
-            font-size: 21px;
-            margin-bottom: 10px;
-        }
-
-        .card p {
-            color: #627282;
-            font-size: 15px;
-        }
-
-        /* =========================
-           FABRICANTE
-        ========================== */
-
-        .two-columns {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .two-columns h2 {
-            font-size: clamp(30px, 4vw, 44px);
-            line-height: 1.15;
-            margin-bottom: 20px;
-        }
-
-        .two-columns p {
-            color: #627282;
-            margin-bottom: 16px;
-        }
-
-        .check-list {
-            list-style: none;
-            margin-top: 25px;
-        }
-
-        .check-list li {
-            position: relative;
-            padding-left: 28px;
-            margin-bottom: 13px;
-            font-weight: 600;
-        }
-
-        .check-list li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #1769aa;
-            font-weight: 900;
-        }
-
-        .info-box {
-            background: #f4f7fa;
-            border: 1px solid #dce5ec;
-            border-radius: 10px;
-            padding: 35px;
-        }
-
-        .info-box h3 {
-            margin-bottom: 15px;
-            font-size: 23px;
-        }
-
-        .info-box p {
-            margin-bottom: 0;
-        }
-
-        /* =========================
-           MATERIAIS / NORMAS
-        ========================== */
-
-        .simple-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-        }
-
-        .simple-box {
-            border-left: 4px solid #1769aa;
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 5px;
-            border-top: 1px solid #dce5ec;
-            border-right: 1px solid #dce5ec;
-            border-bottom: 1px solid #dce5ec;
-        }
-
-        .simple-box h3 {
-            margin-bottom: 8px;
-        }
-
-        .simple-box p {
-            color: #627282;
-            font-size: 15px;
-        }
-
-        /* =========================
-           APLICAÇÕES
-        ========================== */
-
-        .application-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-        }
-
-        .application {
-            padding: 25px 20px;
-            border: 1px solid #dce5ec;
-            border-radius: 8px;
-            background: #ffffff;
-        }
-
-        .application h3 {
-            font-size: 18px;
-            margin-bottom: 8px;
-        }
-
-        .application p {
-            font-size: 14px;
-            color: #627282;
-        }
-
-        /* =========================
-           PROCESSO
-        ========================== */
-
-        .steps {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-
-        .step {
-            position: relative;
-        }
-
-        .step-number {
-            width: 42px;
-            height: 42px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #1769aa;
-            color: #ffffff;
-            font-weight: 800;
-            margin-bottom: 17px;
-        }
-
-        .step h3 {
-            margin-bottom: 8px;
-        }
-
-        .step p {
-            color: #627282;
-            font-size: 15px;
-        }
-
-        /* =========================
-           FAQ
-        ========================== */
-
-        .faq {
-            max-width: 850px;
-        }
-
-        details {
-            border-bottom: 1px solid #dce5ec;
-            padding: 20px 0;
-        }
-
-        summary {
-            cursor: pointer;
-            font-weight: 700;
-            font-size: 17px;
-        }
-
-        details p {
-            padding-top: 12px;
-            color: #627282;
-        }
-
-        /* =========================
-           CTA
-        ========================== */
-
-        .cta {
-            background: #0b1f33;
-            color: #ffffff;
-            text-align: center;
-        }
-
-        .cta-content {
-            max-width: 760px;
-            margin: auto;
-        }
-
-        .cta h2 {
-            font-size: clamp(30px, 4vw, 46px);
-            line-height: 1.15;
-            margin-bottom: 18px;
-        }
-
-        .cta p {
-            color: #cbd8e2;
-            font-size: 17px;
-            margin-bottom: 28px;
-        }
-
-        .cta .button {
-            background: #25D366;
-            color: #ffffff;
-        }
-
-        .cta .button:hover {
-            background: #1fb858;
-        }
-
-        /* =========================
-           FOOTER
-        ========================== */
-
-        footer {
-            background: #071624;
-            color: #ffffff;
-            padding: 35px 0;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            gap: 30px;
-            align-items: center;
-        }
-
-        .footer-logo {
-            font-size: 23px;
-            font-weight: 800;
-        }
-
-        .footer-text {
-            color: #aebdca;
-            font-size: 14px;
-        }
-
-        /* =========================
-           WHATSAPP
-        ========================== */
-
-        .whatsapp {
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-            width: 58px;
-            height: 58px;
-            background: #25D366;
-            color: #ffffff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-            font-weight: 800;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-            z-index: 1000;
-            transition: 0.2s;
-        }
-
-        .whatsapp:hover {
-            transform: scale(1.06);
-        }
-
-        /* =========================
-           RESPONSIVO
-        ========================== */
-
-        @media (max-width: 900px) {
-
-            nav {
-                display: none;
-                position: absolute;
-                top: 76px;
-                left: 0;
-                right: 0;
-                background: #ffffff;
-                padding: 20px;
-                flex-direction: column;
-                align-items: stretch;
-                border-bottom: 1px solid #dce5ec;
-            }
-
-            nav.active {
-                display: flex;
-            }
-
-            .menu-button {
-                display: block;
-            }
-
-            .cards {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .application-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .steps {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .two-columns {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-
-            .hero {
-                padding: 65px 0;
-            }
-
-            section {
-                padding: 60px 0;
-            }
-
-            .cards,
-            .simple-grid,
-            .application-grid,
-            .steps {
-                grid-template-columns: 1fr;
-            }
-
-            .hero p {
-                font-size: 17px;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-            }
-
-            .button {
-                width: 100%;
-            }
-
-            .footer-content {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-        }
-
-    </style>
-
-    <!-- DADOS ESTRUTURADOS -->
-    <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Passo Mola",
-        "url": "https://passomola.com.br/",
-        "description": "Fabricante de molas industriais sob medida.",
-        "areaServed": "BR",
-        "sameAs": []
+      "@type":"LocalBusiness",
+      "@id":"https://passomola.com.br/#business",
+      "name":"Passo Mola",
+      "url":"https://passomola.com.br/",
+      "description":"Fabricante de molas industriais sob medida em São Paulo.",
+      "areaServed":{
+        "@type":"Country",
+        "name":"Brasil"
+      },
+      "address":{
+        "@type":"PostalAddress",
+        "addressLocality":"São Paulo",
+        "addressRegion":"SP",
+        "addressCountry":"BR"
+      }
+    },
+
+    {
+      "@type":"WebSite",
+      "@id":"https://passomola.com.br/#website",
+      "url":"https://passomola.com.br/",
+      "name":"Passo Mola",
+      "publisher":{
+        "@id":"https://passomola.com.br/#business"
+      },
+      "inLanguage":"pt-BR"
+    },
+
+    {
+      "@type":"Service",
+      "name":"Fabricação de Molas Industriais",
+      "provider":{
+        "@id":"https://passomola.com.br/#business"
+      },
+      "areaServed":{
+        "@type":"Country",
+        "name":"Brasil"
+      },
+      "description":"Fabricação de molas industriais conforme desenho técnico, amostra, medidas ou especificação."
+    },
+
+    {
+      "@type":"FAQPage",
+      "@id":"https://passomola.com.br/#faq",
+      "mainEntity":[
+
+        {
+          "@type":"Question",
+          "name":"Como solicitar cotação para fabricação de molas industriais em São Paulo?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Você pode solicitar uma cotação para fabricação de molas industriais em São Paulo enviando desenho técnico, amostra, medidas, referência da peça e quantidade desejada pelo WhatsApp."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"É possível fabricar uma mola industrial conforme desenho?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Sim. A fabricação pode ser avaliada conforme desenho técnico, medidas, especificações do projeto ou outras informações disponíveis."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"É possível fabricar mola conforme amostra?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Sim. Uma amostra pode ser utilizada como referência para avaliação da fabricação da mola, juntamente com informações dimensionais e de aplicação."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"Qual o prazo para fabricar uma mola sob medida conforme desenho?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"O prazo depende do tipo de mola, material, quantidade, complexidade e necessidade de fabricação. O prazo é informado durante a análise e cotação."
+          }
+        },
+
+        {
+          "@type":"Question",
+          "name":"A Passo Mola atende empresas de outros estados além de São Paulo?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Sim. A Passo Mola está localizada em São Paulo e realiza atendimento comercial para empresas de todo o Brasil."
+          }
+        }
+
+      ]
     }
-    </script>
+
+  ]
+}
+</script>
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#172534;
+    line-height:1.6;
+    background:#fff;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    font-family:inherit;
+}
+
+.container{
+    width:92%;
+    max-width:1180px;
+    margin:0 auto;
+}
+
+
+/* =====================================================
+   HEADER DESKTOP
+===================================================== */
+
+header{
+    background:#fff;
+    border-bottom:1px solid #dce5ec;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.menu{
+    min-height:74px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#0b1f33;
+    white-space:nowrap;
+}
+
+.logo span{
+    color:#1769aa;
+}
+
+.desktop-nav{
+    display:flex;
+    align-items:center;
+    gap:24px;
+}
+
+.desktop-nav a{
+    font-size:14px;
+    font-weight:bold;
+    transition:.2s;
+}
+
+.desktop-nav a:hover{
+    color:#1769aa;
+}
+
+
+/* =====================================================
+   BOTÕES
+===================================================== */
+
+.botao{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:48px;
+    padding:13px 21px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    border:1px solid transparent;
+    transition:.2s;
+    text-align:center;
+}
+
+.botao-principal{
+    background:#1769aa;
+    color:#fff!important;
+}
+
+.botao-principal:hover{
+    background:#0e558a;
+}
+
+.botao-secundario{
+    background:#fff;
+    border-color:#b9c8d6;
+}
+
+.botao-secundario:hover{
+    border-color:#1769aa;
+    color:#1769aa;
+}
+
+
+/* =====================================================
+   MENU MOBILE
+===================================================== */
+
+.menu-mobile-btn{
+    display:none;
+    min-width:48px;
+    min-height:48px;
+    border:1px solid #dce5ec;
+    border-radius:8px;
+    background:#fff;
+    color:#0b1f33;
+    font-size:23px;
+    cursor:pointer;
+}
+
+.mobile-menu{
+    display:none;
+    background:#fff;
+    border-top:1px solid #dce5ec;
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+}
+
+.mobile-menu.aberto{
+    display:block;
+}
+
+.mobile-menu nav{
+    display:flex;
+    flex-direction:column;
+}
+
+.mobile-menu a{
+    padding:16px 5%;
+    border-bottom:1px solid #edf1f4;
+    font-weight:bold;
+}
+
+.mobile-menu .mobile-cta{
+    margin:16px 5%;
+    color:#fff;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero{
+    background:linear-gradient(135deg,#edf5fa,#fff);
+    padding:90px 0;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:60px;
+    align-items:center;
+}
+
+.tag{
+    color:#1769aa;
+    font-size:13px;
+    font-weight:800;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+h1{
+    color:#0b1f33;
+    font-size:56px;
+    line-height:1.05;
+    margin:15px 0 20px;
+}
+
+.hero-text{
+    color:#627282;
+    font-size:19px;
+    max-width:680px;
+}
+
+.botoes{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:28px;
+}
+
+.local{
+    font-size:13px;
+    margin-top:15px;
+    color:#627282;
+}
+
+.card-hero{
+    background:#0b1f33;
+    color:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 15px 40px rgba(11,31,51,.12);
+}
+
+.card-hero h2{
+    color:#fff;
+    margin-bottom:12px;
+    font-size:27px;
+}
+
+.card-hero p{
+    color:#d7e2eb;
+    font-size:16px;
+}
+
+.card-hero ul{
+    margin-top:18px;
+    padding-left:20px;
+}
+
+.card-hero li{
+    margin:8px 0;
+}
+
+
+/* =====================================================
+   SEÇÕES
+===================================================== */
+
+.secao{
+    padding:80px 0;
+}
+
+.cinza{
+    background:#f4f7fa;
+}
+
+.titulo{
+    max-width:820px;
+    margin-bottom:38px;
+}
+
+.titulo h2{
+    color:#0b1f33;
+    font-size:38px;
+    line-height:1.2;
+    margin:10px 0;
+}
+
+.titulo p{
+    color:#627282;
+}
+
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+.grade{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    border:1px solid #dce5ec;
+    border-radius:15px;
+    padding:27px;
+    background:#fff;
+    transition:.2s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#0b1f33;
+    margin:10px 0 14px;
+    font-size:21px;
+}
+
+.card p{
+    color:#627282;
+    font-size:15px;
+    margin-bottom:13px;
+}
+
+.card ul{
+    padding-left:20px;
+    color:#627282;
+    font-size:14px;
+}
+
+.card li{
+    margin:7px 0;
+}
+
+.card-link{
+    display:inline-block;
+    margin-top:15px;
+    color:#1769aa;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+/* =====================================================
+   TIPOS DE MOLAS
+===================================================== */
+
+.mola-detalhe{
+    margin-top:15px;
+    padding-top:15px;
+    border-top:1px solid #edf1f4;
+}
+
+.mola-detalhe strong{
+    color:#0b1f33;
+}
+
+
+/* =====================================================
+   MATERIAIS
+===================================================== */
+
+.materiais{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.material-box{
+    background:#fff;
+    border:1px solid #dce5ec;
+    border-radius:15px;
+    padding:28px;
+}
+
+.material-box h3{
+    color:#0b1f33;
+    margin-bottom:15px;
+}
+
+.material-box p{
+    color:#627282;
+    font-size:15px;
+}
+
+.material-list{
+    margin-top:15px;
+    padding-left:20px;
+    color:#627282;
+}
+
+.material-list li{
+    margin:8px 0;
+}
+
+
+/* =====================================================
+   FABRICANTE
+===================================================== */
+
+.fabricante{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:55px;
+    align-items:center;
+}
+
+.fabricante h2{
+    color:#0b1f33;
+    font-size:38px;
+    line-height:1.2;
+    margin:12px 0 18px;
+}
+
+.fabricante p{
+    color:#627282;
+    margin-bottom:15px;
+}
+
+.lista{
+    list-style:none;
+    margin-top:20px;
+}
+
+.lista li{
+    margin:10px 0;
+}
+
+.destaque{
+    background:#0b1f33;
+    color:#fff;
+    padding:38px;
+    border-radius:18px;
+}
+
+.destaque h3{
+    color:#fff;
+    font-size:25px;
+    margin-bottom:12px;
+}
+
+.destaque p{
+    color:#d7e2eb;
+}
+
+
+/* =====================================================
+   NORMAS
+===================================================== */
+
+.normas{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.norma{
+    border:1px solid #dce5ec;
+    border-radius:14px;
+    padding:23px;
+    background:#fff;
+}
+
+.norma h3{
+    color:#0b1f33;
+    margin-bottom:8px;
+}
+
+.norma p{
+    color:#627282;
+    font-size:14px;
+}
+
+
+/* =====================================================
+   APLICAÇÕES
+===================================================== */
+
+.aplicacoes{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.aplicacao{
+    border:1px solid #dce5ec;
+    border-radius:14px;
+    padding:23px;
+}
+
+.aplicacao h3{
+    color:#0b1f33;
+    margin-bottom:7px;
+}
+
+.aplicacao p{
+    color:#627282;
+    font-size:14px;
+}
+
+
+/* =====================================================
+   FAQ
+===================================================== */
+
+.faq{
+    max-width:900px;
+}
+
+.faq-item{
+    background:#fff;
+    border:1px solid #dce5ec;
+    border-radius:12px;
+    margin-bottom:12px;
+    overflow:hidden;
+}
+
+.faq-item summary{
+    cursor:pointer;
+    padding:20px;
+    font-weight:bold;
+    color:#0b1f33;
+    list-style:none;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-item p{
+    padding:0 20px 20px;
+    color:#627282;
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.cta{
+    background:#0b1f33;
+    color:#fff;
+    border-radius:20px;
+    padding:55px;
+    text-align:center;
+}
+
+.cta h2{
+    color:#fff;
+    font-size:35px;
+    margin-bottom:12px;
+}
+
+.cta p{
+    color:#d7e2eb;
+    margin-bottom:25px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+    background:#081a2b;
+    color:#c7d5e2;
+    padding:50px 0 25px;
+}
+
+.rodape{
+    display:grid;
+    grid-template-columns:1.5fr 1fr 1fr;
+    gap:40px;
+}
+
+footer h3{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+footer a:hover{
+    color:#fff;
+}
+
+.copyright{
+    border-top:1px solid #294056;
+    margin-top:35px;
+    padding-top:18px;
+    font-size:12px;
+}
+
+
+/* =====================================================
+   WHATSAPP
+===================================================== */
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    background:#25D366;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    font-size:24px;
+    box-shadow:0 8px 25px rgba(0,0,0,.2);
+    z-index:2000;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media(max-width:950px){
+
+    .desktop-nav{
+        display:none;
+    }
+
+    .menu-mobile-btn{
+        display:block;
+    }
+
+    .menu > .botao-principal{
+        display:none;
+    }
+
+    .hero-grid,
+    .fabricante{
+        grid-template-columns:1fr;
+    }
+
+    .grade{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .aplicacoes,
+    .normas{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .materiais{
+        grid-template-columns:1fr;
+    }
+
+    h1{
+        font-size:46px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    .container{
+        width:90%;
+    }
+
+    header{
+        position:sticky;
+        top:0;
+    }
+
+    .menu{
+        min-height:64px;
+        gap:10px;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .menu-mobile-btn{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-shrink:0;
+    }
+
+    .hero{
+        padding:52px 0 58px;
+    }
+
+    .hero-grid{
+        gap:30px;
+    }
+
+    .tag{
+        font-size:11px;
+        letter-spacing:.8px;
+    }
+
+    h1{
+        font-size:36px;
+        line-height:1.08;
+        margin:12px 0 17px;
+    }
+
+    .hero-text{
+        font-size:17px;
+        line-height:1.55;
+    }
+
+    .botoes{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        margin-top:23px;
+    }
+
+    .botoes .botao{
+        width:100%;
+    }
+
+    .local{
+        font-size:12px;
+        margin-top:14px;
+    }
+
+    .card-hero{
+        padding:25px 22px;
+        border-radius:15px;
+    }
+
+    .card-hero h2{
+        font-size:23px;
+    }
+
+    .card-hero p{
+        font-size:15px;
+    }
+
+    .secao{
+        padding:58px 0;
+    }
+
+    .titulo{
+        margin-bottom:28px;
+    }
+
+    .titulo h2,
+    .fabricante h2{
+        font-size:29px;
+        line-height:1.18;
+    }
+
+    .titulo p{
+        font-size:15px;
+    }
+
+    .grade,
+    .aplicacoes,
+    .normas{
+        grid-template-columns:1fr;
+        gap:14px;
+    }
+
+    .card{
+        padding:23px 21px;
+    }
+
+    .card:hover{
+        transform:none;
+        box-shadow:none;
+    }
+
+    .card h3{
+        font-size:20px;
+    }
+
+    .card p{
+        font-size:15px;
+        line-height:1.55;
+    }
+
+    .fabricante{
+        gap:30px;
+    }
+
+    .destaque{
+        padding:28px 22px;
+        border-radius:15px;
+    }
+
+    .destaque h3{
+        font-size:22px;
+    }
+
+    .material-box{
+        padding:23px 20px;
+    }
+
+    .norma{
+        padding:21px;
+    }
+
+    .aplicacao{
+        padding:21px;
+    }
+
+    .faq-item summary{
+        padding:18px;
+        font-size:15px;
+        line-height:1.4;
+    }
+
+    .faq-item p{
+        padding:0 18px 18px;
+        font-size:14px;
+    }
+
+    .cta{
+        padding:34px 20px;
+        border-radius:16px;
+    }
+
+    .cta h2{
+        font-size:28px;
+        line-height:1.2;
+    }
+
+    .cta p{
+        font-size:15px;
+    }
+
+    .cta .botao{
+        width:100%;
+    }
+
+    footer{
+        padding:40px 0 22px;
+    }
+
+    .rodape{
+        grid-template-columns:1fr;
+        gap:28px;
+    }
+
+    .copyright{
+        margin-top:28px;
+    }
+
+    .whatsapp{
+        width:55px;
+        height:55px;
+        right:16px;
+        bottom:16px;
+    }
+
+}
+
+
+/* =====================================================
+   TELAS MUITO PEQUENAS
+===================================================== */
+
+@media(max-width:360px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+
+    .card-hero{
+        padding:22px 18px;
+    }
+
+}
+
+
+/* =====================================================
+   ACESSIBILIDADE
+===================================================== */
+
+@media(prefers-reduced-motion:reduce){
+
+    html{
+        scroll-behavior:auto;
+    }
+
+    *,
+    *::before,
+    *::after{
+        transition:none!important;
+    }
+
+}
+
+</style>
 
 </head>
 
 <body>
 
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
 <header>
 
-    <div class="container header-content">
+<div class="container menu">
 
-        <a href="#inicio" class="logo">
-            Passo <span>Mola</span>
-        </a>
+<a href="index.html"
+class="logo"
+aria-label="Passo Mola - Página inicial">
 
-        <button class="menu-button" onclick="toggleMenu()">
-            ☰
-        </button>
+Passo <span>Mola</span>
 
-        <nav id="menu">
+</a>
 
-            <a href="#molas">Molas</a>
+<nav class="desktop-nav"
+aria-label="Navegação principal">
 
-            <a href="#materiais">Materiais</a>
+<a href="#molas">Molas</a>
 
-            <a href="#normas">Normas</a>
+<a href="#materiais">Materiais</a>
 
-            <a href="#aplicacoes">Aplicações</a>
+<a href="#normas">Normas</a>
 
-            <a href="#faq">FAQ</a>
+<a href="#aplicacoes">Aplicações</a>
 
-            <a href="#cotacao" class="nav-button">
-                Solicitar cotação
-            </a>
+<a href="#faq">FAQ</a>
 
-        </nav>
+</nav>
 
-    </div>
+<a href="#cotacao"
+class="botao botao-principal"
+aria-label="Solicitar cotação de molas industriais">
+
+Solicitar cotação
+
+</a>
+
+<button
+type="button"
+class="menu-mobile-btn"
+id="menuBtn"
+aria-label="Abrir menu"
+aria-expanded="false"
+aria-controls="mobileMenu">
+
+☰
+
+</button>
+
+</div>
+
+<div
+class="mobile-menu"
+id="mobileMenu">
+
+<nav aria-label="Navegação móvel">
+
+<a href="#molas">Tipos de molas</a>
+
+<a href="#materiais">Materiais</a>
+
+<a href="#normas">Normas técnicas</a>
+
+<a href="#aplicacoes">Aplicações</a>
+
+<a href="#faq">Perguntas frequentes</a>
+
+<a
+href="#cotacao"
+class="botao botao-principal mobile-cta">
+
+Solicitar cotação
+
+</a>
+
+</nav>
+
+</div>
 
 </header>
 
-
 <main>
 
-<!-- HERO -->
+<!-- =====================================================
+     HERO
+===================================================== -->
 
-<section class="hero" id="inicio">
+<section class="hero">
 
-    <div class="container">
+<div class="container hero-grid">
 
-        <div class="hero-content">
+<div>
 
-            <span class="hero-label">
-                FABRICANTE DE MOLAS INDUSTRIAIS
-            </span>
+<span class="tag">
+FABRICANTE DE MOLAS INDUSTRIAIS
+</span>
 
-            <h1>
-                Molas industriais
-                <span>sob medida</span>
-                para sua aplicação
-            </h1>
+<h1>
+Fabricante de Molas Industriais em São Paulo
+</h1>
 
-            <p>
-                Fabricamos molas conforme desenho técnico,
-                amostra, medidas ou especificações do cliente.
-                Soluções para aplicações industriais em todo o Brasil.
-            </p>
+<p class="hero-text">
 
-            <div class="hero-buttons">
+Molas industriais sob medida para empresas,
+máquinas, equipamentos e projetos mecânicos.
+Fabricamos conforme desenho técnico, amostra,
+medidas ou especificação.
 
-                <a
-                    href="https://wa.me/551159312416?text=Olá,%20quero%20solicitar%20uma%20cotação%20de%20molas%20industriais."
-                    target="_blank"
-                    class="button button-primary">
-                    Solicitar cotação pelo WhatsApp
-                </a>
+</p>
 
-                <a href="#molas" class="button button-secondary">
-                    Conhecer nossas molas
-                </a>
+<div class="botoes">
 
-            </div>
+<a
+href="#cotacao"
+class="botao botao-principal"
+aria-label="Solicitar cotação de mola industrial">
 
-        </div>
+Solicitar cotação
 
-    </div>
+</a>
 
-</section>
+<a
+href="#molas"
+class="botao botao-secundario"
+aria-label="Conhecer os tipos de molas industriais">
 
+Conhecer as molas
 
-<!-- TIPOS DE MOLAS -->
+</a>
 
-<section id="molas">
+</div>
 
-    <div class="container">
+<p class="local">
+São Paulo - SP • Atendimento em todo o Brasil
+</p>
 
-        <div class="section-title">
+</div>
 
-            <small>Tipos de produtos</small>
+<div class="card-hero">
 
-            <h2>
-                Molas industriais para diferentes aplicações
-            </h2>
+<h2>
+Precisa fabricar uma mola?
+</h2>
 
-            <p>
-                Produção conforme a necessidade da sua aplicação,
-                projeto ou especificação técnica.
-            </p>
+<p>
+Envie as informações que você possui para avaliarmos sua necessidade.
+</p>
 
-        </div>
+<ul>
 
+<li>Desenho técnico</li>
 
-        <div class="cards">
+<li>Amostra da peça</li>
 
-            <div class="card">
+<li>Medidas</li>
 
-                <div class="card-number">01</div>
+<li>Referência</li>
 
-                <h3>Molas de Compressão</h3>
+<li>Quantidade desejada</li>
 
-                <p>
-                    Desenvolvidas para trabalhar sob esforços de
-                    compressão em diferentes equipamentos e mecanismos.
-                </p>
+</ul>
 
-            </div>
+</div>
 
-
-            <div class="card">
-
-                <div class="card-number">02</div>
-
-                <h3>Molas de Tração</h3>
-
-                <p>
-                    Molas com ganchos e configurações específicas
-                    para aplicações que exigem força de tração.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">03</div>
-
-                <h3>Molas de Torção</h3>
-
-                <p>
-                    Desenvolvidas para aplicações que necessitam
-                    de força e movimento rotacional.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">04</div>
-
-                <h3>Molas Prato</h3>
-
-                <p>
-                    Soluções para aplicações que exigem alta força
-                    em espaços reduzidos.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">05</div>
-
-                <h3>Molas Especiais</h3>
-
-                <p>
-                    Fabricação de peças especiais conforme projeto,
-                    desenho ou necessidade técnica.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">06</div>
-
-                <h3>Molas Conforme Desenho</h3>
-
-                <p>
-                    Envie seu desenho técnico, amostra ou medidas
-                    para avaliarmos a fabricação.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
 
+<!-- =====================================================
+     TIPOS DE MOLAS
+===================================================== -->
 
-<!-- FABRICANTE -->
+<section
+class="secao"
+id="molas">
 
-<section class="section-light">
+<div class="container">
 
-    <div class="container">
+<div class="titulo">
 
-        <div class="two-columns">
+<span class="tag">
+TIPOS DE MOLAS
+</span>
 
-            <div>
+<h2>
+Molas industriais para diferentes aplicações mecânicas
+</h2>
 
-                <h2>
-                    Fabricação conforme sua necessidade
-                </h2>
+<p>
+Conheça os principais tipos de molas que podem ser avaliados conforme a necessidade do seu projeto.
+</p>
 
-                <p>
-                    Cada aplicação possui necessidades específicas.
-                    Por isso, trabalhamos com fabricação conforme
-                    as características técnicas solicitadas.
-                </p>
+</div>
 
-                <p>
-                    Nossa equipe pode avaliar informações como
-                    dimensões, material, carga, curso, diâmetro,
-                    comprimento e demais requisitos do projeto.
-                </p>
+<div class="grade">
 
-                <ul class="check-list">
+<!-- COMPRESSÃO -->
 
-                    <li>Desenho técnico</li>
+<article class="card">
 
-                    <li>Amostra física</li>
+<h3>
+Mola de Compressão
+</h3>
 
-                    <li>Medidas e especificações</li>
+<p>
+A mola de compressão é uma das soluções mais utilizadas em sistemas mecânicos que precisam absorver força, retornar componentes ou manter pressão entre duas superfícies.
+</p>
 
-                    <li>Projetos personalizados</li>
+<p>
+Pode ser aplicada em máquinas industriais, dispositivos, equipamentos, ferramentas, válvulas e mecanismos de retorno.
+</p>
 
-                    <li>Fornecimento para empresas</li>
+<div class="mola-detalhe">
 
-                </ul>
+<strong>Características:</strong>
 
-            </div>
+<ul>
 
+<li>Construção helicoidal</li>
+<li>Diferentes diâmetros e comprimentos</li>
+<li>Extremidades conforme projeto</li>
+<li>Possibilidade de diferentes acabamentos</li>
 
-            <div class="info-box">
+</ul>
 
-                <h3>
-                    Já possui um desenho?
-                </h3>
+</div>
 
-                <p>
-                    Envie as informações pelo WhatsApp.
-                    Nossa equipe poderá analisar sua necessidade
-                    e orientar sobre as informações necessárias
-                    para elaboração da cotação.
-                </p>
+</article>
 
-                <br>
+<!-- TRAÇÃO -->
 
-                <a
-                    href="https://wa.me/551159312416?text=Olá,%20tenho%20um%20desenho/amostra%20de%20mola%20e%20gostaria%20de%20solicitar%20uma%20cotação."
-                    target="_blank"
-                    class="button button-primary">
-                    Enviar para análise
-                </a>
+<article class="card">
 
-            </div>
+<h3>
+Mola de Tração
+</h3>
 
-        </div>
+<p>
+As molas de tração trabalham submetidas a forças que procuram alongar o elemento. São utilizadas quando o sistema precisa gerar força de retorno ou manter componentes unidos.
+</p>
 
-    </div>
+<p>
+O projeto pode considerar diferentes configurações de ganchos, olhais e dimensões conforme a aplicação mecânica.
+</p>
+
+<div class="mola-detalhe">
+
+<strong>Características:</strong>
+
+<ul>
+
+<li>Ganchos e olhais conforme necessidade</li>
+<li>Força de tração especificada</li>
+<li>Comprimento livre e estendido</li>
+<li>Aplicações industriais diversas</li>
+
+</ul>
+
+</div>
+
+</article>
+
+<!-- TORÇÃO -->
+
+<article class="card">
+
+<h3>
+Mola de Torção
+</h3>
+
+<p>
+Molas de torção são desenvolvidas para aplicações em que a mola atua por movimento angular. Elas armazenam energia e produzem torque para retorno de mecanismos.
+</p>
+
+<p>
+São utilizadas em dispositivos, mecanismos de acionamento, equipamentos industriais e sistemas que necessitam de retorno angular controlado.
+</p>
+
+<div class="mola-detalhe">
+
+<strong>Características:</strong>
+
+<ul>
+
+<li>Atuação por torque</li>
+<li>Braços conforme projeto</li>
+<li>Ângulo de trabalho especificado</li>
+<li>Aplicações mecânicas e industriais</li>
+
+</ul>
+
+</div>
+
+</article>
+
+<!-- PRATO -->
+
+<article class="card">
+
+<h3>
+Mola Prato
+</h3>
+
+<p>
+Molas prato, também conhecidas como arruelas elásticas do tipo Belleville, possuem formato cônico e são utilizadas quando é necessário obter grande força em pouco espaço axial.
+</p>
+
+<p>
+Podem ser empregadas em sistemas de pressão, pré-carga, absorção de esforços e mecanismos industriais.
+</p>
+
+<div class="mola-detalhe">
+
+<strong>Características:</strong>
+
+<ul>
+
+<li>Alta capacidade de carga</li>
+<li>Pequeno espaço axial</li>
+<li>Aplicações de pré-carga</li>
+<li>Configurações conforme projeto</li>
+
+</ul>
+
+</div>
+
+</article>
+
+<!-- ESPECIAIS -->
+
+<article class="card">
+
+<h3>
+Molas Especiais
+</h3>
+
+<p>
+Projetos que não se enquadram nos modelos convencionais podem exigir uma solução específica. Nesses casos, as características geométricas e mecânicas são avaliadas conforme a necessidade.
+</p>
+
+<p>
+Podem envolver dimensões especiais, formatos diferenciados, materiais específicos ou condições particulares de funcionamento.
+</p>
+
+<div class="mola-detalhe">
+
+<strong>Possibilidades:</strong>
+
+<ul>
+
+<li>Geometrias especiais</li>
+<li>Dimensões diferenciadas</li>
+<li>Materiais específicos</li>
+<li>Projetos personalizados</li>
+
+</ul>
+
+</div>
+
+</article>
+
+<!-- INDUSTRIAIS -->
+
+<article class="card">
+
+<h3>
+Molas Industriais
+</h3>
+
+<p>
+A categoria de molas industriais engloba diferentes soluções utilizadas em máquinas, equipamentos, dispositivos, ferramentas e sistemas mecânicos.
+</p>
+
+<p>
+A especificação depende da função da mola, força, deslocamento, espaço disponível, material e condições de trabalho.
+</p>
+
+<div class="mola-detalhe">
+
+<strong>Avaliação:</strong>
+
+<ul>
+
+<li>Aplicação da mola</li>
+<li>Força e deslocamento</li>
+<li>Dimensões disponíveis</li>
+<li>Material e acabamento</li>
+
+</ul>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
 
 </section>
 
+<!-- =====================================================
+     MATERIAIS
+===================================================== -->
 
-<!-- MATERIAIS -->
+<section
+class="secao cinza"
+id="materiais">
 
-<section id="materiais">
+<div class="container">
 
-    <div class="container">
+<div class="titulo">
 
-        <div class="section-title">
+<span class="tag">
+MATERIAIS
+</span>
 
-            <small>Materiais</small>
+<h2>
+Materiais utilizados na fabricação de molas industriais
+</h2>
 
-            <h2>
-                Materiais adequados à aplicação
-            </h2>
+<p>
+A escolha do material depende das características mecânicas, ambiente de trabalho, resistência, temperatura e aplicação da mola.
+</p>
 
-            <p>
-                A escolha do material depende das características
-                mecânicas, ambientais e operacionais da aplicação.
-            </p>
+</div>
 
-        </div>
+<div class="materiais">
 
+<div class="material-box">
 
-        <div class="simple-grid">
+<h3>
+Aços para molas
+</h3>
 
-            <div class="simple-box">
+<p>
+Entre os materiais que podem ser considerados para aplicações industriais estão diferentes ligas de aço carbono e aços especiais para molas.
+</p>
 
-                <h3>Aços para molas</h3>
+<ul class="material-list">
 
-                <p>
-                    Utilização de materiais adequados às
-                    características especificadas para cada projeto.
-                </p>
+<li>Aço carbono SAE 1070</li>
 
-            </div>
+<li>Aço carbono SAE 1090</li>
 
+<li>Cromo Silício SAE 9254</li>
 
-            <div class="simple-box">
+<li>Outras especificações conforme projeto</li>
 
-                <h3>Tratamentos</h3>
+</ul>
 
-                <p>
-                    Quando necessário, podem ser consideradas
-                    especificações de tratamento conforme o projeto.
-                </p>
+</div>
 
-            </div>
+<div class="material-box">
 
+<h3>
+Aços inoxidáveis e ligas especiais
+</h3>
 
-            <div class="simple-box">
+<p>
+Para aplicações que exigem características específicas de resistência à corrosão ou temperatura, podem ser avaliados materiais inoxidáveis e ligas especiais conforme a necessidade.
+</p>
 
-                <h3>Especificação técnica</h3>
+<ul class="material-list">
 
-                <p>
-                    O material pode ser definido conforme desenho,
-                    norma ou requisito apresentado pelo cliente.
-                </p>
+<li>Aço inox AISI 302</li>
 
-            </div>
+<li>Aço inox AISI 304</li>
 
+<li>Aço inox AISI 316</li>
 
-            <div class="simple-box">
+<li>Inconel e outras ligas especiais</li>
 
-                <h3>Aplicação industrial</h3>
+</ul>
 
-                <p>
-                    Avaliação da necessidade da peça antes da
-                    fabricação para buscar a solução adequada.
-                </p>
+</div>
 
-            </div>
+</div>
 
-        </div>
-
-    </div>
+</div>
 
 </section>
 
+<!-- =====================================================
+     FABRICANTE
+===================================================== -->
 
-<!-- NORMAS -->
+<section
+class="secao"
+id="fabricante">
 
-<section class="section-light" id="normas">
+<div class="container fabricante">
 
-    <div class="container">
+<div>
 
-        <div class="section-title">
+<span class="tag">
+FABRICANTE
+</span>
 
-            <small>Especificações</small>
+<h2>
+Fabricação de molas industriais sob medida em São Paulo
+</h2>
 
-            <h2>
-                Fabricação orientada por requisitos técnicos
-            </h2>
+<p>
+A Passo Mola atende empresas que precisam fabricar ou substituir molas utilizadas em máquinas, equipamentos, ferramentas, dispositivos e projetos industriais.
+</p>
 
-            <p>
-                Trabalhamos a partir das informações fornecidas
-                pelo cliente para atender aos requisitos do projeto.
-            </p>
+<p>
+A avaliação pode começar a partir de um desenho técnico, amostra, medidas, referência ou informações disponíveis sobre a aplicação.
+</p>
 
-        </div>
+<ul class="lista">
 
+<li>✓ Fabricação conforme desenho</li>
 
-        <div class="simple-grid">
+<li>✓ Avaliação conforme amostra</li>
 
-            <div class="simple-box">
+<li>✓ Soluções sob medida</li>
 
-                <h3>Desenho técnico</h3>
+<li>✓ Atendimento em São Paulo e demais regiões</li>
 
-                <p>
-                    O desenho pode apresentar dimensões,
-                    tolerâncias, material e demais características.
-                </p>
+<li>✓ Atendimento para aplicações industriais</li>
 
-            </div>
+</ul>
 
+</div>
 
-            <div class="simple-box">
+<div class="destaque">
 
-                <h3>Amostra</h3>
+<h3>
+Você possui uma mola que precisa ser fabricada?
+</h3>
 
-                <p>
-                    Quando disponível, uma amostra pode auxiliar
-                    na identificação das características da peça.
-                </p>
+<p>
+Envie uma foto, desenho, medidas ou referência da peça para iniciar a avaliação comercial.
+</p>
 
-            </div>
+<br>
 
+<a
+href="#cotacao"
+class="botao botao-principal"
+aria-label="Enviar informações para cotação">
 
-            <div class="simple-box">
+Solicitar cotação
 
-                <h3>Normas técnicas</h3>
+</a>
 
-                <p>
-                    Quando especificadas pelo cliente, as normas
-                    aplicáveis devem ser consideradas na cotação.
-                </p>
+</div>
 
-            </div>
-
-
-            <div class="simple-box">
-
-                <h3>Projeto personalizado</h3>
-
-                <p>
-                    Para peças especiais, a análise das informações
-                    técnicas é fundamental antes da fabricação.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
 
+<!-- =====================================================
+     NORMAS
+===================================================== -->
 
-<!-- APLICAÇÕES -->
+<section
+class="secao cinza"
+id="normas">
 
-<section id="aplicacoes">
+<div class="container">
 
-    <div class="container">
+<div class="titulo">
 
-        <div class="section-title">
+<span class="tag">
+ESPECIFICAÇÕES TÉCNICAS
+</span>
 
-            <small>Aplicações</small>
+<h2>
+Normas e especificações para fabricação de molas
+</h2>
 
-            <h2>
-                Soluções para diferentes segmentos industriais
-            </h2>
+<p>
+A especificação técnica da mola pode considerar normas, dimensões, material, força, curso, acabamento e demais requisitos definidos pelo projeto.
+</p>
 
-            <p>
-                Molas podem ser utilizadas em máquinas,
-                equipamentos e sistemas de diferentes setores.
-            </p>
+</div>
 
-        </div>
+<div class="normas">
 
+<div class="norma">
 
-        <div class="application-grid">
+<h3>
+DIN 2095
+</h3>
 
-            <div class="application">
-                <h3>Máquinas</h3>
-                <p>
-                    Componentes para máquinas e equipamentos industriais.
-                </p>
-            </div>
+<p>
+Referência técnica relacionada a molas helicoidais de compressão e suas características dimensionais.
+</p>
 
-            <div class="application">
-                <h3>Automação</h3>
-                <p>
-                    Aplicações em sistemas e equipamentos de automação.
-                </p>
-            </div>
+</div>
 
-            <div class="application">
-                <h3>Manutenção</h3>
-                <p>
-                    Reposição e fabricação de peças conforme necessidade.
-                </p>
-            </div>
+<div class="norma">
 
-            <div class="application">
-                <h3>Projetos especiais</h3>
-                <p>
-                    Desenvolvimento conforme requisitos específicos.
-                </p>
-            </div>
+<h3>
+DIN 2097
+</h3>
 
-        </div>
+<p>
+Referência utilizada para especificações relacionadas a determinadas molas helicoidais de tração.
+</p>
 
-    </div>
+</div>
 
-</section>
+<div class="norma">
 
+<h3>
+DIN 2093
+</h3>
 
-<!-- PROCESSO -->
+<p>
+Norma relacionada a molas prato, incluindo características dimensionais e requisitos técnicos.
+</p>
 
-<section class="section-light">
+</div>
 
-    <div class="container">
+<div class="norma">
 
-        <div class="section-title">
+<h3>
+ABNT</h3>
 
-            <small>Como funciona</small>
+<p>
+Quando aplicável, podem ser consideradas especificações e requisitos técnicos conforme normas brasileiras e documentação do projeto.
+</p>
 
-            <h2>
-                Solicite sua cotação em poucos passos
-            </h2>
+</div>
 
-        </div>
+</div>
 
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">1</div>
-
-                <h3>Entre em contato</h3>
-
-                <p>
-                    Fale conosco pelo WhatsApp.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">2</div>
-
-                <h3>Envie as informações</h3>
-
-                <p>
-                    Envie desenho, medidas, amostra
-                    ou especificações disponíveis.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">3</div>
-
-                <h3>Analisamos</h3>
-
-                <p>
-                    Avaliamos as informações necessárias
-                    para a cotação.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">4</div>
-
-                <h3>Receba a cotação</h3>
-
-                <p>
-                    Nossa equipe retorna com as informações
-                    comerciais e técnicas disponíveis.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
 
+<!-- =====================================================
+     APLICAÇÕES
+===================================================== -->
 
-<!-- FAQ -->
+<section
+class="secao"
+id="aplicacoes">
 
-<section id="faq">
+<div class="container">
 
-    <div class="container">
+<div class="titulo">
 
-        <div class="section-title">
+<span class="tag">
+APLICAÇÕES
+</span>
 
-            <small>Dúvidas frequentes</small>
+<h2>
+Molas para diferentes segmentos industriais
+</h2>
 
-            <h2>
-                Perguntas sobre nossas molas
-            </h2>
+<p>
+Soluções para empresas que utilizam componentes elásticos em máquinas, equipamentos, dispositivos e sistemas mecânicos.
+</p>
 
-        </div>
+</div>
 
+<div class="aplicacoes">
 
-        <div class="faq">
+<div class="aplicacao">
 
-            <details>
+<h3>
+Máquinas industriais
+</h3>
 
-                <summary>
-                    Vocês fabricam molas sob medida?
-                </summary>
+<p>
+Molas para mecanismos, sistemas de retorno e componentes de máquinas.
+</p>
 
-                <p>
-                    Sim. Trabalhamos com fabricação conforme
-                    desenho, amostra, medidas ou especificações
-                    fornecidas pelo cliente.
-                </p>
+</div>
 
-            </details>
+<div class="aplicacao">
 
+<h3>
+Automação industrial
+</h3>
 
-            <details>
+<p>
+Componentes elásticos utilizados em equipamentos e sistemas automatizados.
+</p>
 
-                <summary>
-                    Posso enviar um desenho técnico?
-                </summary>
+</div>
 
-                <p>
-                    Sim. O desenho técnico pode ser enviado pelo
-                    WhatsApp para avaliação da necessidade.
-                </p>
+<div class="aplicacao">
 
-            </details>
+<h3>
+Manutenção industrial
+</h3>
 
+<p>
+Soluções para reposição de molas utilizadas em equipamentos industriais.
+</p>
 
-            <details>
+</div>
 
-                <summary>
-                    Vocês atendem empresas de todo o Brasil?
-                </summary>
+<div class="aplicacao">
 
-                <p>
-                    Sim. Atendemos solicitações de empresas
-                    de diferentes regiões do Brasil.
-                </p>
+<h3>
+Fabricantes de máquinas
+</h3>
 
-            </details>
+<p>
+Molas especificadas para novos equipamentos e projetos mecânicos.
+</p>
 
+</div>
 
-            <details>
+<div class="aplicacao">
 
-                <summary>
-                    Não tenho desenho. Posso solicitar uma cotação?
-                </summary>
+<h3>
+Ferramentas e dispositivos
+</h3>
 
-                <p>
-                    Sim. Entre em contato e informe todas as
-                    medidas e características que você possui.
-                    Nossa equipe orientará sobre as informações
-                    necessárias.
-                </p>
+<p>
+Aplicações em ferramentas, dispositivos de montagem e mecanismos.
+</p>
 
-            </details>
+</div>
 
+<div class="aplicacao">
 
-            <details>
+<h3>
+Metalurgia
+</h3>
 
-                <summary>
-                    Como solicito uma cotação?
-                </summary>
+<p>
+Componentes elásticos utilizados em equipamentos e processos industriais.
+</p>
 
-                <p>
-                    Clique no botão de WhatsApp e envie sua
-                    necessidade, desenho, medidas ou demais
-                    informações disponíveis.
-                </p>
+</div>
 
-            </details>
+<div class="aplicacao">
 
-        </div>
+<h3>
+Equipamentos industriais
+</h3>
 
-    </div>
+<p>
+Molas para diferentes sistemas mecânicos e equipamentos.
+</p>
+
+</div>
+
+<div class="aplicacao">
+
+<h3>
+Projetos especiais
+</h3>
+
+<p>
+Fabricação avaliada conforme características específicas do projeto.
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
+<!-- =====================================================
+     NECESSIDADES
+===================================================== -->
 
-<!-- CTA -->
+<section class="secao cinza">
 
-<section class="cta" id="cotacao">
+<div class="container">
 
-    <div class="container">
+<div class="titulo">
 
-        <div class="cta-content">
+<span class="tag">
+COMO PODEMOS AJUDAR
+</span>
 
-            <h2>
-                Precisa de uma mola para sua aplicação?
-            </h2>
+<h2>
+Qual é a sua necessidade?
+</h2>
 
-            <p>
-                Envie sua necessidade, desenho, medidas ou amostra
-                e fale diretamente com nossa equipe.
-            </p>
+<p>
+Escolha a situação mais próxima do que sua empresa precisa.
+</p>
 
-            <a
-                href="https://wa.me/551159312416?text=Olá,%20quero%20solicitar%20uma%20cotação%20de%20molas%20industriais."
-                target="_blank"
-                class="button">
-                Solicitar cotação pelo WhatsApp
-            </a>
+</div>
 
-        </div>
+<div class="grade">
 
-    </div>
+<article class="card">
+
+<h3>
+Preciso fabricar uma mola
+</h3>
+
+<p>
+Você possui uma necessidade de fabricação e precisa descobrir quais informações enviar para solicitar uma cotação?
+</p>
+
+<a
+href="#cotacao"
+class="card-link"
+aria-label="Solicitar cotação de mola">
+
+Solicitar cotação →
+
+</a>
+
+</article>
+
+<article class="card">
+
+<h3>
+Tenho um desenho técnico
+</h3>
+
+<p>
+O desenho pode fornecer informações importantes para avaliar dimensões, material, força e características da mola.
+</p>
+
+<a
+href="#cotacao"
+class="card-link"
+aria-label="Solicitar avaliação de mola conforme desenho">
+
+Enviar desenho →
+
+</a>
+
+</article>
+
+<article class="card">
+
+<h3>
+Tenho uma amostra
+</h3>
+
+<p>
+Uma mola existente pode servir como referência inicial para avaliação da necessidade de fabricação.
+</p>
+
+<a
+href="#cotacao"
+class="card-link"
+aria-label="Solicitar avaliação de mola conforme amostra">
+
+Enviar informações →
+
+</a>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+     FAQ
+===================================================== -->
+
+<section
+class="secao"
+id="faq">
+
+<div class="container">
+
+<div class="titulo">
+
+<span class="tag">
+PERGUNTAS FREQUENTES
+</span>
+
+<h2>
+Dúvidas sobre fabricação de molas industriais
+</h2>
+
+<p>
+Confira algumas das principais dúvidas antes de solicitar uma cotação.
+</p>
+
+</div>
+
+<div class="faq">
+
+<details class="faq-item">
+
+<summary>
+Como solicitar cotação para fabricação de molas industriais em São Paulo?
+</summary>
+
+<p>
+Para solicitar uma cotação de fabricação de molas industriais em São Paulo, envie pelo WhatsApp o desenho técnico, amostra, medidas, referência da peça, quantidade e outras informações disponíveis.
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+É possível fabricar uma mola industrial conforme desenho?
+</summary>
+
+<p>
+Sim. O desenho técnico pode ser utilizado como base para avaliação da fabricação, juntamente com informações sobre material, aplicação e quantidade.
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+É possível fabricar mola conforme amostra?
+</summary>
+
+<p>
+Sim. Uma amostra pode ajudar na avaliação da fabricação. Sempre que possível, informações dimensionais e características da aplicação também devem ser enviadas.
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+Qual o prazo para fabricar uma mola sob medida conforme desenho?
+</summary>
+
+<p>
+O prazo depende do tipo de mola, material, quantidade, complexidade e requisitos de fabricação. O prazo é informado após a avaliação da necessidade.
+</p>
+
+</details>
+
+<details class="faq-item">
+
+<summary>
+A Passo Mola atende empresas de outros estados além de São Paulo?
+</summary>
+
+<p>
+Sim. O atendimento comercial é realizado a partir de São Paulo para empresas de diferentes regiões do Brasil.
+</p>
+
+</details>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+     COTAÇÃO
+===================================================== -->
+
+<section
+class="secao"
+id="cotacao">
+
+<div class="container">
+
+<div class="cta">
+
+<h2>
+Precisa de uma mola industrial?
+</h2>
+
+<p>
+Envie sua necessidade pelo WhatsApp e solicite uma cotação.
+</p>
+
+<a
+href="https://wa.me/551159312416?text=Ol%C3%A1!%20Encontrei%20voc%C3%AAs%20pelo%20Google%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o."
+target="_blank"
+rel="noopener"
+class="botao botao-principal"
+aria-label="Solicitar cotação pelo WhatsApp">
+
+Solicitar cotação pelo WhatsApp
+
+</a>
+
+</div>
+
+</div>
 
 </section>
 
 </main>
 
-
-<!-- FOOTER -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
-    <div class="container footer-content">
+<div class="container">
 
-        <div>
+<div class="rodape">
 
-            <div class="footer-logo">
-                Passo Mola
-            </div>
+<div>
 
-            <div class="footer-text">
-                Fabricante de Molas Industriais Sob Medida
-            </div>
+<div class="logo">
+Passo <span>Mola</span>
+</div>
 
-        </div>
+<p>
+Fabricante de molas industriais sob medida,
+com atendimento comercial para empresas
+de São Paulo e todo o Brasil.
+</p>
 
+</div>
 
-        <div class="footer-text">
-            © 2026 Passo Mola. Todos os direitos reservados.
-        </div>
+<div>
 
-    </div>
+<h3>
+Tipos de molas
+</h3>
+
+<p>
+
+<a href="#molas">
+Mola de compressão
+</a>
+
+<br>
+
+<a href="#molas">
+Mola de tração
+</a>
+
+<br>
+
+<a href="#molas">
+Mola de torção
+</a>
+
+<br>
+
+<a href="#molas">
+Mola prato
+</a>
+
+<br>
+
+<a href="#molas">
+Molas especiais
+</a>
+
+</p>
+
+</div>
+
+<div>
+
+<h3>
+Atendimento
+</h3>
+
+<p>
+São Paulo - SP
+<br>
+Atendimento em todo o Brasil.
+</p>
+
+<br>
+
+<a href="#cotacao">
+Solicitar cotação →
+</a>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 Passo Mola. Todos os direitos reservados.
+
+</div>
+
+</div>
 
 </footer>
 
-
-<!-- WHATSAPP FLUTUANTE -->
+<!-- =====================================================
+     WHATSAPP
+===================================================== -->
 
 <a
-    href="https://wa.me/551159312416?text=Olá,%20vim%20pelo%20site%20Passo%20Mola%20e%20quero%20solicitar%20uma%20cotação."
-    target="_blank"
-    class="whatsapp"
-    aria-label="Falar pelo WhatsApp">
+class="whatsapp"
+href="https://wa.me/551159312416?text=Ol%C3%A1!%20Encontrei%20voc%C3%AAs%20pelo%20Google%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o."
+target="_blank"
+rel="noopener"
+aria-label="Solicitar cotação pelo WhatsApp">
 
-    ☎
+☎
 
 </a>
 
+<!-- =====================================================
+     JAVASCRIPT DO MENU MOBILE
+===================================================== -->
 
 <script>
 
-    function toggleMenu() {
+const menuBtn = document.getElementById("menuBtn");
+const mobileMenu = document.getElementById("mobileMenu");
 
-        const menu = document.getElementById("menu");
+menuBtn.addEventListener("click", function(){
 
-        menu.classList.toggle("active");
+    const aberto = mobileMenu.classList.toggle("aberto");
+
+    menuBtn.setAttribute(
+        "aria-expanded",
+        aberto ? "true" : "false"
+    );
+
+    menuBtn.setAttribute(
+        "aria-label",
+        aberto ? "Fechar menu" : "Abrir menu"
+    );
+
+    menuBtn.textContent = aberto ? "✕" : "☰";
+
+});
+
+
+/* Fecha o menu quando o usuário escolhe uma seção */
+
+document.querySelectorAll("#mobileMenu a").forEach(function(link){
+
+    link.addEventListener("click", function(){
+
+        mobileMenu.classList.remove("aberto");
+
+        menuBtn.setAttribute(
+            "aria-expanded",
+            "false"
+        );
+
+        menuBtn.setAttribute(
+            "aria-label",
+            "Abrir menu"
+        );
+
+        menuBtn.textContent = "☰";
+
+    });
+
+});
+
+
+/* Fecha o menu ao pressionar ESC */
+
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "Escape"){
+
+        mobileMenu.classList.remove("aberto");
+
+        menuBtn.setAttribute(
+            "aria-expanded",
+            "false"
+        );
+
+        menuBtn.setAttribute(
+            "aria-label",
+            "Abrir menu"
+        );
+
+        menuBtn.textContent = "☰";
+
+        menuBtn.focus();
 
     }
 
-
-    document.querySelectorAll("nav a").forEach(function(link) {
-
-        link.addEventListener("click", function() {
-
-            document.getElementById("menu").classList.remove("active");
-
-        });
-
-    });
+});
 
 </script>
 
